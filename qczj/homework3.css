@@ -1,0 +1,213 @@
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		color: #333;
+		font:normal 12px '微软雅黑','Microsoft YaHei',serif;
+	}
+    body{
+        background-color: #ededed;
+    }
+    .box{
+        max-width: 500px;
+        margin:0 auto;
+    }
+    /*顶端*/
+    .top{
+    	width: 100%;
+    	margin:0 auto;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .top ul.header{
+    	display: flex;
+    	flex-direction: row;
+        width:100%;
+        height: 30px;
+        background-color: #ededed;
+        border-bottom: 1px solid #ccc;
+    }
+    .top ul.header > li:first-child {
+    	line-height: 30px;
+        flex-grow: 1;
+    }
+    .top ul.header > li:nth-child(2)  {
+        flex-grow: 1;
+    	text-align: left;
+    	line-height: 30px;
+    }
+    /*白线*/
+    #one{
+        width: 100%;
+        height: 20px;
+        background-color: #fff;
+    }
+    /*大图*/
+    #two{
+        font-size: 0;
+        background-color: teal;
+        width: 100%;
+        height: 100px;
+    }
+    /*搜索*/
+    .search{
+        width:100%;
+        background-color: #e3e4e6;
+        height:30px;
+        padding-top: 8px;
+    }
+    .search .wrapper{
+        height: 20px;
+        line-height: 20px;
+        width:420px;
+        margin:0 40px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding-left: 4px;
+    }
+    .search .wrapper > input{
+        border:none;
+        width: 400px;       
+    }
+    .search .wrapper .iconfont{
+        font-size: 15px;
+        color: #ededed;
+    }
+    /*导航*/
+    .nav {s
+            width:100%;
+            margin: 0 auto;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            padding: 1em 0;
+            background-color: #ffffff;
+        }
+    .nav >ul {
+            display: flex;
+        }
+    .nav > ul > li {
+            flex: 1;
+            height: 60px;
+            text-align: center;
+            border-right: 1px solid #ccc;
+        }
+    .nav > ul > li:last-child {
+            border-right: 0;
+        }
+    /*新闻*/
+
+    .news{
+        background-color: #fff;
+        margin-top: 5px;
+    }
+    .news > ul{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 300px;
+        flex-wrap: wrap;
+    }
+    .news > ul >li:nth-child(2),
+    .news > ul >li:nth-child(3),
+    .news > ul >li:nth-child(4){
+      width: 150px;
+      flex-grow: 1;
+      text-align: center;
+       border-bottom: 1px solid #ccc;
+
+    }
+    .news > ul >li:nth-child(3),
+    .news > ul >li:nth-child(4){
+        border-left: 1px solid #ccc;
+    }
+    .news > ul> li:first-child{
+        height: 250px;
+        width: 500px;
+        text-indent:2em; 
+        border-bottom: 1px solid #ccc;
+    }
+
+    .news2{
+        background-color: #fff;
+        margin-top: 5px;
+    }
+    .news2 > ul{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 300px;
+        flex-wrap: wrap;
+    }
+    .news2 > ul >li:nth-child(2),
+    .news2 > ul >li:nth-child(3),
+    .news2 > ul >li:nth-child(4){
+      width: 150px;
+      flex-grow: 1;
+      text-align: center;
+       border-bottom: 1px solid #ccc;
+    }
+    .news2 > ul >li:nth-child(3),
+    .news2 > ul >li:nth-child(4){
+        border-left: 1px solid #ccc;
+    }
+    .news2 > ul> li:first-child{
+        height: 250px;
+        width: 500px;
+        text-indent:2em; 
+        border-bottom: 1px solid #ccc;
+    }
+
+    .news3{
+        background-color: #fff;
+        margin-top: 5px;
+    }
+    .news3 > ul{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 300px;
+        flex-wrap: wrap;
+    }
+    .news3 > ul >li:nth-child(2),
+    .news3 > ul >li:nth-child(3),
+    .news3 > ul >li:nth-child(4){
+      width: 150px;
+      flex-grow: 1;
+      text-align: center;
+       border-bottom: 1px solid #ccc;
+
+    }
+    .news3 > ul >li:nth-child(3),
+    .news3 > ul >li:nth-child(4){
+        border-left: 1px solid #ccc;
+    }
+    .news3 > ul> li:first-child{
+        height: 250px;
+        width: 500px;
+        text-indent:2em; 
+        border-bottom: 1px solid #ccc;
+    }
+    /*底部*/
+    .bottom{
+        width: 100%;
+        margin:0 auto;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .bottom ul.wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 30px;
+        background-color: #ededed;
+        border-top: 1px solid #ededed;
+    }
+    .bottom ul.wrapper > li{
+        width: 100px;
+        text-align: center;
+        line-height: 30px;
+    }
